@@ -1,0 +1,31 @@
+POST http://localhost:3333/clientes
+Content-Type: application/json
+
+{
+    "Nome": "gu1231",
+    "Idade": 15
+}
+
+###
+
+GET http://localhost:3333/clientes?search
+
+###
+
+PUT http://localhost:3333/clientes/95ffbe67-a476-4d40-9269-6defbb537373
+Content-Type: application/json
+
+{
+    "Nome": "Gustavo",
+    "Idade": 16
+}
+
+###
+
+DELETE http://localhost:3333/clientes/be0ca549-660b-4034-a881-ad763a352f5d
+Content-Type: application/json
+
+{
+    "Nome": "Gustavo",
+    "Idade": 16
+}
