@@ -5,7 +5,7 @@ import { resolveUrl } from "ajv/dist/compile/resolve.js";
 const server = fastify()
 
 const database = new DataBase()
-
+const teste = "opa"
 
 
 server.post('/clientes', async (request, reply) => {
